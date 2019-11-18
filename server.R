@@ -45,10 +45,4 @@ server <- function(input, output) {
     sliderValues()
   })
   
-#  output$text_int <- renderText({
-#    if(input$action_Calc == 0) ""
-#    else
-#      paste("Simple Interest [$]:", values$p_value)
-#  })
-  
 }
